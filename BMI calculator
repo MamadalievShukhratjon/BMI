@@ -1,0 +1,6 @@
+age = float(input("What is your age? "))
+years = 90 - age
+months = float(round(years *12))
+weeks = float(round(years *52))
+days = float(round(years *365))
+print(years)
